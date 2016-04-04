@@ -1,0 +1,15 @@
+/* 
+    Main style
+    Created on : 2016.03.01., 17:28:17
+    Author     : Meszaros Andras <andras.meszaros@vanio.hu>
+*/
+@import "bootswatch";
+
+/* Applications own custom style modules */
+@import "variables";
+@import "mixins/mixins";
+@import "placeholders";
+@import "core";
+@import "desktop";
+@import "mobile";
+@import "print";

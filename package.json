@@ -1,0 +1,62 @@
+{
+  "name": "webappscaffold",
+  "version": "0.0.1",
+  "description": "Web application scaffold",
+  "main": "./src/main/resources/public/main.ts",
+  "scripts": {
+    "build-client": "webpack -d --display-modules --display-reasons --display-error-details --color",
+    "watch-client": "nodemon -e ts,js,scss --ignore '*.bundle.js' -w webpack.config.js -w ./src/main/resources/public/ -x npm run build-client",
+    "postinstall": "typings install",
+    "start": "npm run watch-client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "webappscaffold"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular 2.0",
+    "bootstrap",
+    "bootswatch",
+    "maven",
+    "ng2",
+    "npm",
+    "sass",
+    "spring",
+    "spring-boot",
+    "typescript",
+    "webpack"
+  ],
+  "author": "Mészáros András",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "2.2.0",
+    "angular2": "^2.0.0-beta.12",
+    "bootstrap-sass": "^3.3.6",
+    "bootswatch": "^3.3.6",
+    "ie-shim": "0.1.0",
+    "es6-promise": "^3.1.2",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "^5.0.0-beta.2",
+    "zone.js": "^0.6.4"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "node-sass": "^3.4.2",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^3.1.2",
+    "source-map-loader": "^0.1.5",
+    "style-loader": "^0.13.0",
+    "ts-loader": "^0.8.1",
+    "tslint": "^3.5.0",
+    "tslint-loader": "^2.1.3",
+    "typescript": "^1.8.2",
+    "typings": "^0.6.9",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.14"
+  }
+}

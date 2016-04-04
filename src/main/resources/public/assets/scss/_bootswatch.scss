@@ -1,0 +1,11 @@
+//Import bootstrap-sprockets
+@import "~bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
+
+// Import yeti variables
+@import "~bootswatch/yeti/variables";
+
+// Then bootstrap itself
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// And finally bootswatch style itself
+@import "~bootswatch/yeti/bootswatch";
