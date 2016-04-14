@@ -1,6 +1,9 @@
 {
     "name": "web-app",
     "version": false,
+    "dependencies": {
+        "rxjs-symbol-typings": "github:david-driscoll/rxjs-symbol-typings#b06ca4cc670b9e0f2ace68a339dce38648e10e6c"
+    },
     "ambientDependencies": {
         "es6-shim": "github:DefinitelyTyped/DefinitelyTyped/es6-shim/es6-shim.d.ts#7de6c3dd94feaeb21f20054b9f30d5dabc5efabd"
     }

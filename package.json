@@ -17,8 +17,7 @@
     "angular",
     "angular2",
     "angular 2.0",
-    "bootstrap",
-    "bootswatch",
+    "material-design",
     "maven",
     "ng2",
     "npm",
@@ -32,15 +31,15 @@
   "license": "ISC",
   "dependencies": {
     "jquery": "2.2.0",
-    "angular2": "^2.0.0-beta.12",
+    "angular2": "^2.0.0-beta.15",
     "bootstrap-sass": "^3.3.6",
     "bootswatch": "^3.3.6",
     "ie-shim": "0.1.0",
     "es6-promise": "^3.1.2",
     "es6-shim": "^0.35.0",
     "reflect-metadata": "^0.1.3",
-    "rxjs": "^5.0.0-beta.2",
-    "zone.js": "^0.6.4"
+    "rxjs": "^5.0.0-beta.5",
+    "zone.js": "^0.6.11"
   },
   "devDependencies": {
     "css-loader": "^0.23.1",
@@ -51,12 +50,12 @@
     "sass-loader": "^3.1.2",
     "source-map-loader": "^0.1.5",
     "style-loader": "^0.13.0",
-    "ts-loader": "^0.8.1",
-    "tslint": "^3.5.0",
+    "ts-loader": "^0.8.2",
+    "tslint": "^3.7.4",
     "tslint-loader": "^2.1.3",
-    "typescript": "^1.8.2",
-    "typings": "^0.6.9",
+    "typescript": "^1.8.9",
+    "typings": "^0.7.12",
     "url-loader": "^0.5.7",
-    "webpack": "^1.12.14"
+    "webpack": "^1.12.15"
   }
 }

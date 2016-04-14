@@ -2,7 +2,7 @@ var webpack           = require('webpack');
 var path              = require('path');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
-var plugins = [
+var plugins = [ 
     //Biztositja a megjelolt globalis valtozok letezeset az egyes modulok szamara
     new webpack.ProvidePlugin({
         '$': 'jquery',
